@@ -2,6 +2,9 @@
 name = "timestamp-rust-cli"
 version = "0.1.0"
 edition = "2021"
+authors = ["Elminson De Oleo Baez <edeoleo@gmail.com>"]
+description="A simple CLI to convert timestamps to human readable format"
+license = "MIT"
 
 [dependencies]
 clap = { version = "4.2", features = ["derive"] }
